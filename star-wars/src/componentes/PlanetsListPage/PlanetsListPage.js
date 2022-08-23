@@ -19,7 +19,7 @@ const PlanetsListPage = (props) => {
 
     return(
         <div>
-            <h1>List Planets</h1>
+            <h1>Detalhes de Planetas</h1>
             {onlyPlanets()}
         </div>
     )

@@ -15,7 +15,7 @@ const CharacterDetailPage = (props) => {
 
     return(
         <div>
-            <h1>Character Detail</h1>
+            <h1>Detalhes</h1>
             {character.name && planet.name ? 
                 <div>
                     <p>Nome: {character.name}</p>
@@ -23,7 +23,7 @@ const CharacterDetailPage = (props) => {
                 </div> : 
                 <p> Carregando ...</p>
             }
-            <button onClick={props.goTListlPage}> Back to character list</button>
+            <button onClick={props.goTListlPage}> Voltar para Personagens</button>
         </div>
     );
 };

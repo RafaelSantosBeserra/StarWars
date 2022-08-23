@@ -15,7 +15,7 @@ const PlanetsDetailsPage = (props) => {
     return(
         <div>
 
-            <h1> Details Planet </h1>
+            <h1> Detalhes </h1>
             {planetDetails.name && planetDetails.climate && planetDetails.population && planetDetails.terrain ?
                 <div>
                     <p>Nome: {planetDetails.name}</p>
@@ -26,7 +26,7 @@ const PlanetsDetailsPage = (props) => {
                 <p> Carregando ...</p>
             }
             
-            <button onClick={props.goTListlplanets} > Back to planets</button>
+            <button onClick={props.goTListlplanets} > Voltar para planetas</button>
         </div>
     );
 };

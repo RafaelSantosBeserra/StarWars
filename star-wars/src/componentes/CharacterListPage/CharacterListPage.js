@@ -18,7 +18,7 @@ const CharacterListPage = (props) => {
 
     return (
         <div>
-            <h1>Character List Page</h1>
+            <h1>Detalhes de Personagens</h1>
             {onlyCharacter()}
 
         </div>
